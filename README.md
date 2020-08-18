@@ -5,4 +5,4 @@ MERN stack resources - code snippets and general commands
 - [General Commands](MongoDB/Commands.md)
 
 
-- [Query Selectors](MongoDB/QuerySelectors.md)
+- [Query Selectors](MongoDB/QuerySelector.md)
