@@ -31,5 +31,5 @@ MERN stack resources - code snippets and general commands
 
 7. `db.<Collection Name>.insertMany([{Data 1},{data 2},{Data n}])`
 Eg: `db.Qualification.insertMany([{id:2 ,"Name":"Vyas","Age":21,"Degree":"B.Tech"},{id:3,"Name":"Pratyaksh","Age":22,"Degree":"BA"}])`
-- Use insertMany() to insert more then one data in single go.
+- Use insertMany() to insert more than one data in a single go.
  
