@@ -25,7 +25,8 @@ MERN stack resources - code snippets and general commands
 - To create a new collection inside database.
 
 
-6. `db.<collectionName>.insert({<key> : <value>, <key> : <value>})`  eg: `db.Qualifications.insertOne({id:1 ,"Name":"Ayush","Age":21,"Degree":"B.Tech"})`
+6. `db.<collectionName>.insertOne({<key> : <value>, <key> : <value>})`  
+Eg: `db.Qualifications.insertOne({id:1 ,"Name":"Ayush","Age":21,"Degree":"B.Tech"})`
 - To Insert Record In a Collection.
 
 
@@ -33,3 +34,15 @@ MERN stack resources - code snippets and general commands
 Eg: `db.Qualification.insertMany([{id:2 ,"Name":"Vyas","Age":21,"Degree":"B.Tech"},{id:3,"Name":"Pratyaksh","Age":22,"Degree":"BA"}])`
 - Use insertMany() to insert more than one data in a single go.
  
+8.  `db.<Source Name>.copyTo("Target Name")`
+Eg: `db.Name.copyTo("Qualifications")`
+- To Copy all the data from one collection to anathor withing SAME DATABASE.
+
+9.   `db.<Collection Name>.updateOne({Ref of what value to be updated},{$set:{Updated Value}})`
+Eg: `db.Qualifications.update({"Name":"Gajju"},{$set:{"Degree":"ITUS"}})`
+- To Update an Existing Value 
+**Use updateMany() to Update More than One Value at once**
+
+
+10.   `db.<Collection Name>.drop()`
+- Will Delete that Collection.
