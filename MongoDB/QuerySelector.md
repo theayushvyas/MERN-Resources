@@ -23,7 +23,7 @@ Eg: `db.Qualifications.find({Age: {$gte : 21}})`
 `db.<Collection Name>.find(value : {$lt : Less Than To)`  
 Eg: `db.Qualifications.find({Age: {$lt:24}})`
 
-6.  $lt - Return all Enteries which are Less then and Equal to the entered Value.
+6.  $lte - Return all Enteries which are Less then and Equal to the entered Value.
 `db.<Collection Name>.find(value : {$lt : Less and equal To)`  
 Eg: `db.Qualifications.find({Age: {$lt:25}})`
 
