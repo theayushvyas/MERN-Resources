@@ -4,6 +4,7 @@
 
 1.  **$eq - Find all value equal to given value.
 `
+
 db.<Collection Name>.find(value : Equal To)`
 Eg: `db.Qualifications.find({Age: {$eq:20}}) or db.Qualifications.find({Age : 20}) Both Are Same.`
 
