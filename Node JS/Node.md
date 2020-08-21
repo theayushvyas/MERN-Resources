@@ -11,6 +11,6 @@ Applications build with Node JS are fast,Responsive and highly Scalable because 
 
 Non blocking means it does'nt block other until the response of first request in completed.
 
-It uses a **SINGLE THREAD** to take multiple request and Whenever the database result(response of request) is ready it puts a message in the **Event Queue** , Node is continously monitoring its event queue in background , and whenever it finds an Event Due in this Queue it takes it out and process(Serve) it. so It do not block anyone after taking a request else it takes all the request and process them in.
+It uses a **SINGLE THREAD** to take multiple request and Whenever the database result(response of request) is ready it puts a message in the **Event Queue** , Node is continously monitoring its event queue in background , and whenever it finds an Event Due in this Queue it takes it out and process(Serve) it. so It do not block anyone after taking a request else it takes all the request and process them.
 
-Eg: In a Restaurent a Single waiter takes order from multiple customers and give to the chef . and serve them as per their food gets ready
+Eg: In a Restaurent a Single waiter takes order from multiple customers and gives it to the chef to prepare and  then serve them as per their food gets ready
