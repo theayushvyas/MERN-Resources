@@ -51,6 +51,14 @@ console.log(Reading File);
 ## Callback Hell
 Callback Hell is pyramid like unmanagable structure of Nested callback Functions , if any one function  gets an error it will effect all the function , it is very complex and unmanagable loop of callbacks that is why it is known as Callback Hell
 
+## REPl
+REPL Provides Shell like or cmd like enevironment .REPL in Node.js stands for Read, Eval, Print, and Loop. It represents a computer environment such as a window console or Unix/Linux shell where any command can be entered and then the system can respond with an output. Node.js comes bundled with a REPL environment by default. REPL can perform the below-listed tasks
+
+   -Read: Reads the user’s input, parses it into JavaScript data-structure and then stores it in the memory.
+   -Eval: Receives and evaluates the data structure.
+   -Print: Prints the final result.
+   -Loop: Loops the provided command until CTRL+C is pressed twice.
+
 ## Modules
 Earlier javascript was never meant to be run outside the browser ,and it does'nt come with any module system. So we have to the whole code in a single file,Which become very cubersome for large projects . Then CommonJS API comes to fill this gap by defining a module format Which allow users to breakup the code in multiple JS files and access them from anywhere. so Node JS provide user different modules which allow users to intergrate all the diferent file in a single file by simpluy we can say importing them.
 
