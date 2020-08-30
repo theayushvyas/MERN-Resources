@@ -29,14 +29,14 @@ Callback function is very important concept in Node JS. Every Event is attached 
 2)First parameter of any callback funcation is by default **error** , If any error occurs it will let us know.
 
 **Non-Blocking and Callback example**
-,,,
+```
 fs.readFile('/random.txt'),function(err,data){
 if(err) return console.log(err);
 console.log(data);
 	
 }
 console.log(Reading File);
-,,,
+```
    **output** 
 
  Reading File
