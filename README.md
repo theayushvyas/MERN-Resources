@@ -9,4 +9,4 @@ MERN stack resources - code snippets and general commands
 
 
 ### Node JS
-- [Node Basics](Node JS/Node.md)
+- [Node Basics](Node  JS/Node.md)
