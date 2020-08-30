@@ -63,3 +63,5 @@ NodeJS is Module Based.
 - Core Modules(Build-in Modules)
 
 - External Node Modules
+
+For more in-depth Knowledge with code Snippets of Node JS Modules Visit Here : - [Modules Code Snippet](NodeJS/Code.md)
