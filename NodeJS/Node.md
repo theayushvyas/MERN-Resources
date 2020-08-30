@@ -58,6 +58,8 @@ NodeJS is Module Based.
 
 ## Types of Modules in Node JS.
 
-1. File Based Modules
-2. Core Modules(Build-in Modules)
-3. External Node Modules
+- File Based Modules
+  
+- Core Modules(Build-in Modules)
+
+- External Node Modules
