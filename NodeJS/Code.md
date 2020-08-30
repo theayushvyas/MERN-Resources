@@ -1,9 +1,11 @@
-## File Based Module
-File system Modules are installed locally in your Node JS application , and the are for the purpose on interconnecting different files
- Eg: In this eg we will print Hello World But using two different Files .
+## File-Based Module
+File system Modules are installed locally in your Node JS application, and the are for the purpose on interconnecting different files
+ Eg: In this eg we will print Hello World But using two different Files.
  
  
  There are two ways to export any module 
+ 
+
  **Way 1**
  **Example.js**
  ```
@@ -22,7 +24,7 @@ File system Modules are installed locally in your Node JS application , and the 
  ```
  add = (a,b) =>(a+b);  //Assigning the Value
  
- export.add = add;  //No Exporting it.
+ export.add = add;  //Exporting it.
  ```
  **Index.js**
  ```
@@ -38,7 +40,7 @@ File system Modules are installed locally in your Node JS application , and the 
 
 
 ## Core Modules
-Core Modules are the build in modules are those who come along with Node.
+Core Modules are the built-in modules are those who come along with Node.
 
 
 eg(http,fs,path)
@@ -58,7 +60,7 @@ const server = http.createServer((req,res) => {
 
 ## External Modules
 External are third party modules we need to first download and install them on our project using npm install
-Eg : We will install  super heroes , a module which prints out random super heroes name.
+Eg: We will install super heroes, a module which prints out random super heroes name.
 
 
 first we need to do  
