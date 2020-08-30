@@ -25,11 +25,11 @@ Event loop is what makes Nodejs Fast , scalable and Non Buffereing .Being using 
 Callback function is very important concept in Node JS. Every Event is attached to a callback function and whenever an event is completed then the call back function is call, Which help us know which task is completed first.
 
 **Imp points to remember**
-1) Callback Function is the last parameter of any function , it is executed after the task is completed.
+- Callback Function is the last parameter of any function , it is executed after the task is completed.
 
-2)First parameter of any callback funcation is by default **error** , If any error occurs it will let us know.
+- First parameter of any callback funcation is by default **error** , If any error occurs it will let us know.
 
-3)Second Parameter is Data. Data to be returened.
+- Second Parameter is Data. Data to be returened.
 
 **Non-Blocking and Callback example**
 ```
