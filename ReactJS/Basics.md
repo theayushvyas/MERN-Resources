@@ -30,9 +30,9 @@ As we know that Dom represents the UI of the application , and Dom is represente
 ### How virtual dom solve this problem ?
 React dom is much much faster then the virtual dom , Every time we update any thing Whole Virtual dom gets updated instead of the real dom,then Virtual dom compare itself to what it look like before update and figure out what is changed/updated after this virtual dom syncs with the real dom and only that updated part is changes in the real dom and this saving time.
 
-**The algorithm which is used to figure out what is changes in updated virtual dom and previous virtual is known as diffing algorithm**
+**This whole process is called reconciliation**
 
-**and this whole process is called reconciliation**
+**And the algorithm which is used to figure out what is changed in updated virtual dom and previous virtual is known as diffing algorithm**
 
 ## React Fiber
 Fiber is the new reconciliation engine in React 16. Its main goal is to enable incremental rendering of the virtual DOM.
