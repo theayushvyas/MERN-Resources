@@ -12,7 +12,26 @@ and then run
 
 `create-react-app Myfirstapp`  //
 
-## Some Imp Points AbouT ReactJS
+## Some Important concepts of ReactJS
 
 - React JS used the concept of Virtual which makes it fast , efficient and highly productive for building single page application.
-- The html like format we use inside react js components are acctually JSX (JavaScript XML or Javascript Extention ).
+- The html like format we use inside react js components is actually JSX (JavaScript XML or Javascript Extention ).
+
+
+## Virtual Dom(Document Object Model)
+The DOM in simple words represents the UI of your application .The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called **reconciliation**.You can think of the virtual DOM like a blueprint. It contains all the details needed to construct the DOM, but because it doesn't require all the heavyweight parts that go into a real DOM, it can be created and changed much more easily and we dont need to change it in real dom every time.
+
+
+### Problem with the Ream Dom ?
+As we know that Dom represents the UI of the application , and Dom is represented in **Tree Data Structure** because of which updates in Dom are faster but after the update , The updated elements and its childrens have to be re-render to update the UI this is what makes real dom slow.
+
+
+### How virtual dom solve this problem ?
+React dom is much much faster then the virtual dom , Every time we update any thing Whole Virtual dom gets updated instead of the real dom,then Virtual dom compare itself to what it look like before update and figure out what is changed/updated after this virtual dom syncs with the real dom and only that updated part is changes in the real dom and this saving time.
+
+**The algorithm which is used to figure out what is changes in updated virtual dom and previous virtual is known as diffing algorithm**
+
+**and this whole process is called reconciliation**
+
+## React Fiber
+Fiber is the new reconciliation engine in React 16. Its main goal is to enable incremental rendering of the virtual DOM.
