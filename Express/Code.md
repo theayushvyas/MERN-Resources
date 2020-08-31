@@ -12,7 +12,7 @@ res.send('Hello World');
 app.listen(3000, (req,res) => {
 console.log("Server Started Successfully on port 3000 !! ");
 });
-``
+```
 
 Explaination of var app = express();`
 **just like after importing scanner in java we create an object for scanner function to use it.
