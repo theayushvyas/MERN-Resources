@@ -11,3 +11,8 @@ it is easy to learn ,highly Scalable and uses component based architecture.
 and then run
 
 `create-react-app Myfirstapp`  //
+
+## Some Imp Points AbouT ReactJS
+
+- React JS used the concept of Virtual which makes it fast , efficient and highly productive for building single page application.
+- The html like format we use inside react js components are acctually JSX (JavaScript XML or Javascript Extention ).
