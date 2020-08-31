@@ -1,6 +1,8 @@
 ## MERN Resources
 MERN stack resources - code snippets and general commands
 
+Ps : They are in the order in which one should learn them.
+
 ### MongoDB
 - [General Commands](MongoDB/Commands.md)
 
@@ -13,7 +15,7 @@ MERN stack resources - code snippets and general commands
 - [Code Snippets](NodeJS/Code.md)
 
 
-### Express Js
+### Express 
 - [Basics](Express/Express.md)
 - [Code Snippets](Express/Code.md)
 
