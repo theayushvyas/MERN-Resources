@@ -41,10 +41,11 @@ Fiber is the new reconciliation engine in React 16. Its main goal is to enable i
 ## Components 
 Components is most important thing to remember while working with react. Every thing in react is a component ,We can say that a react UI is a combination of components .Just like a Puzzel . It is same like joining components to make a UI .
 
-<https://raw.githubusercontent.com/theayushvyas/MERN-Resources/master/ReactJS/Puzzel.jpg width="200" height="200" />
+<img src ="https://raw.githubusercontent.com/theayushvyas/MERN-Resources/master/ReactJS/Puzzel.jpg" width="200" height="200" />
 
 ### Types of components.
 There are two types of components.
-- [Funcational Components](./Code.md)
+- [Functional Components](./Code.md)
 - [Class Components](./Code.md)
+
 **Click to know about component in-depth**
