@@ -39,7 +39,7 @@ Fiber is the new reconciliation engine in React 16. Its main goal is to enable i
 
 
 ## Components 
-Components is most important thing to remember while working with react. Every thing in react is a component ,We can say that a react UI is a combination of components .Just like a Puzzel . It is same like joining components to make a UI .
+Components is most important thing to remember while working with react. Every thing in react is a component ,We can say that a react UI is a combination of components .Just like a Puzzel . It is same like joining different components to make a complete UI .
 
 <img src ="https://raw.githubusercontent.com/theayushvyas/MERN-Resources/master/ReactJS/Puzzel.jpg" width="200" height="200" />
 
