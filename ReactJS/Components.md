@@ -2,6 +2,12 @@
 Components , In React JS every thing is a component ,every part you see or e can say that a React JS web page is a made up of joining many small components.
 **To return more than one element we need to use** `<div>`**element  or react fragments **
 
+### Types of components.
+
+- Functional Components
+- Class Components
+
+
 ### Functional Components
   - Functional Components are just normal javascript functions that simply accepts some data and display them or renders the UI element . 
   - Functional components are also known as Stateless Components because they dont have any states , or we can't use {this.State} inside functional components but 
