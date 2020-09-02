@@ -43,9 +43,5 @@ Components is most important thing to remember while working with react. Every t
 
 <img src ="https://raw.githubusercontent.com/theayushvyas/MERN-Resources/master/ReactJS/Puzzel.jpg" width="200" height="200" />
 
-### Types of components.
-There are two types of components.
-- [Functional Components](./Code.md)
-- [Class Components](./Code.md)
 
-**Click to know about component in-depth**
+
