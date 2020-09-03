@@ -31,7 +31,7 @@ document.getElementById("root"));
 - The ReactDOM. render() function takes two arguments, HTML code and an HTML element. The purpose of the function is to display the specified HTML code inside the specified HTML element.
 
 ### what is a single page application .
-- Single page application literraly means a single page , every thing is on a single page , think of our daily life example ,like Facebook , Instagram even Whatsapp , all these are examples of single page application , 
+- Single page application literraly means a single page , every thing is on a single page , think of our daily life example ,like Facebook , Instagram even Whatsapp , all these are examples of single page application , Every thing you open from instagram feeds to Instagram messages you stays on a single page .and not waiting for a new page to load and present data to on it.
 
 
 **In technical terms**
