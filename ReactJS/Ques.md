@@ -32,8 +32,12 @@ document.getElementById("root"));
 
 ### what is a single page application .
 - Single page application literraly means a single page , every thing is on a single page , think of our daily life example ,like Facebook , Instagram even Whatsapp , all these are examples of single page application , 
+
+
 **In technical terms**
 - A single page application is that which interacts with the browser in the same page and to open a new link it rewrites the current page and loads the data on that page from the server , not like opening n different tabs for each link .
+
+
 **Benifits of single page application**
 - They do not reload during the use.
 - They do not use to open different page for other links and we don't need to wait for the new page to load.
