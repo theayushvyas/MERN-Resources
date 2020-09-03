@@ -42,3 +42,4 @@ document.getElementById("root"));
 - They do not reload during the use.
 - They do not use to open different page for other links and we don't need to wait for the new page to load.
 - They improve UX(User Experience).
+- Its speed , as most of the resources are loaded from the server at the start of the application because of which they do not need to be reloaded during its usage as they need not to wait for client-server communication to load new information
